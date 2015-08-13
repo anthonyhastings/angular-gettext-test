@@ -4,12 +4,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: \n"
 
-#: index.html:8
+#: index.html:12
 msgid "Hello {{myCtrl.name}}!"
 msgstr ""
 
 #. Custom Comment: Please be careful not to damage the variable.
-#: index.html:10
+#: index.html:15
 msgid "There is only {{$count}} boat."
 msgid_plural "There are {{$count}} boats."
 msgstr[0] ""
