@@ -21,7 +21,15 @@
 
         <!-- Plural translation. -->
         <div translate
-             translate-n="myCtrl.boatCount"
+             translate-n="1"
+             translate-plural="There are {{$count}} boats."
+             translate-comment="Custom Comment: Please be careful not to damage the variable.">
+            There is only {{$count}} boat.
+        </div>
+
+        <!-- Plural translation. -->
+        <div translate
+             translate-n="2"
              translate-plural="There are {{$count}} boats."
              translate-comment="Custom Comment: Please be careful not to damage the variable.">
             There is only {{$count}} boat.
