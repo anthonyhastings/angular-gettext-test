@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>Angular Gettext Test</title>
     </head>
-    <body ng-app="MyApp" ng-controller="MyController as myCtrl">
+    <body ng-strict-di ng-app="MyApp" ng-controller="MyController as myCtrl">
         <div translate>Hello {{myCtrl.name}}!</div>
         <div translate>We're testing translations today.</div>
         <div translate translate-n="myCtrl.boatCount" translate-plural="There are {{$count}} boats." translate-comment="Custom Comment: Please be careful not to damage the variable.">There is only {{$count}} boat.</div>

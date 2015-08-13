@@ -84,6 +84,7 @@ function _processBundle(resolve, reject) {
     bundleStream
         .add(self.srcPath + self.fileName + '.js')
         .transform('hbsfy')
+        .transform('browserify-ngannotate')
         .transform({ global: true }, require('browserify-shim'))
         .bundle()
         .on('error', function(error) {
