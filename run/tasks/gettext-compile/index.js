@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- *  ???.
+ *  Compiles PO files into Angular translation modules.
  *
  *  Example Usage:
  *  gulp gettext-compile

@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-    // Where to look for source files for extraction.
+    // Where to look for source files for compilation.
     srcPaths: ['./translations/**/*.po'],
 
-    // Where to place the POT templates. Is prefixed with `destPath` from global settings.
-    outputFolder: 'json/'
+    // Where to place the angular translation modules. Is prefixed with `destPath` from global settings.
+    outputFolder: '../js/translation-modules'
 };

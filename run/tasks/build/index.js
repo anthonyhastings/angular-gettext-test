@@ -17,7 +17,7 @@ var gulp = require('gulp'),
     styleSettings = require('../styles/_common'),
     mergeStream = require('merge-stream');
 
-gulp.task('build', ['html', 'styles', 'scripts'], function() {
+gulp.task('build', ['gettext-extract', 'gettext-compile', 'html', 'styles', 'scripts'], function() {
     if (scriptSettings.bundles.length === 0) {
         console.log(chalk.bgYellow.gray(' FE Skeleton: Warning - There are no script bundles defined.'));
     }
