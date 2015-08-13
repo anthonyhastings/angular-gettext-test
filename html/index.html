@@ -5,6 +5,14 @@
         <title>Angular Gettext Test</title>
     </head>
     <body ng-strict-di ng-app="MyApp" ng-controller="MyController as myCtrl">
+        <nav>
+            <ul>
+                <li><a href="#?lang=en" force-reload translate>English</a></li>
+                <li><a href="#?lang=fr" force-reload translate>French</a></li>
+                <li><a href="#?lang=de" force-reload translate>German</a></li>
+            </ul>
+        </nav>
+
         <!-- Standard singular translation. -->
         <div translate>We're testing translations today.</div>
 
