@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anthony Hastings <anthony@rehabstudio.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.html:8
+msgid "Hello {{myCtrl.name}}!"
+msgstr "Hallo {{myCtrl.name}}!"
+
+#. Custom Comment: Please be careful not to damage the variable.
+#: index.html:10
+msgid "There is only {{$count}} boat."
+msgid_plural "There are {{$count}} boats."
+msgstr[0] "Es gibt nur {{$count}} Boot."
+msgstr[1] "Es gibt {{$count}} Boote."
+
+#: index.html:9
+msgid "We're testing translations today."
+msgstr "Wir testen Übersetzungen heute."

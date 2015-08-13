@@ -51,6 +51,3 @@ docs/_build/doctrees/environment.pickle
 # Output by junit/cobertura via Karma for integration with Jenkins.
 fe-test-results.xml
 fe-coverage-results.xml
-
-# Includes POT and PO files.
-translations/
